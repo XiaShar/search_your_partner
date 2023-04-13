@@ -1,0 +1,7 @@
+{
+  "name": "searchPartner",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
