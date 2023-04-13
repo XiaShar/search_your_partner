@@ -3,7 +3,7 @@
 		<view class="title">
 			星际引力
 		</view>
-		<view style="font-size: 25px;margin-top: 20px;margin-bottom: 20px;">
+		<view style="font-size: 25px;margin-top: 20px;margin-bottom: 20px;font-family: '得意黑'">
 			引力系数测量站
 		</view>
 
@@ -41,7 +41,13 @@
 					<text>②电话：</text> <text>{{ res.second.phone }}</text>
 				</view> 
 			</view>
+			<view style="margin-top: 20px;">
+				<text>小组编号:</text> <text>{{ res.order }}</text>
+			</view>
 		</uni-card>
+		
+		<view>Vulpecula著</view>
+		<view>致力于做最好的学生服务 	</view>
 	</view>
 </template>
 
@@ -76,7 +82,8 @@
 					second:{
 						name:"",
 						phone:""
-					}
+					},
+					order:""
 				}
 			}
 		},
@@ -107,5 +114,6 @@
 	}
 	.title{
 		font-size: 40px;
+		font-family: "仓耳渔阳体 W01";
 	}
 </style>
